@@ -27,8 +27,6 @@ Android 靈活的切圓角元件(Layout)
 ```
 ```
 
-### Any optional sections
-
 ## Usage
 
 ### Demo截圖
@@ -44,8 +42,6 @@ Android 靈活的切圓角元件(Layout)
 | rightTopCorner | dimension| 右上角切成圓角|
 | leftBottomCorner | dimension| 左下角切成圓角|
 | rightBottomCorner | dimension| 右下角切成圓角|
-
-### Any optional sections
 
 ## API
 ```xml
