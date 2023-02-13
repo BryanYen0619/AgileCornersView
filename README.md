@@ -26,7 +26,7 @@ Android 靈活的切圓角元件(Layout)
 
 ## Usage
 
-![alt text](https://github.com/BryanYen0619/AgileCornersView/blob/main/app/src/main/java/com/cathaysec/view/agilecorners/screenshot/Screenshot_20230213_092150.png)
+<img src="https://github.com/BryanYen0619/AgileCornersView/blob/main/app/src/main/java/com/cathaysec/view/agilecorners/screenshot/Screenshot_20230213_092150.png" height="640px" width="288px" >
 
 * 適用於Android項目的UI切圓角元件。
 
