@@ -26,10 +26,19 @@ Android 靈活的切圓角元件(Layout)
 
 ## Usage
 
+### Demo截圖
 <img src="https://github.com/BryanYen0619/AgileCornersView/blob/main/app/src/main/java/com/cathaysec/view/agilecorners/screenshot/Screenshot_20230213_092150.png" height="640px" width="288px" >
 
 * 適用於Android項目的UI切圓角元件。
 
+### 元件參數說明
+| 參數名 | 型態 | 功能 | 
+| -------- | -------- | -------- |
+| corner | dimension| 4個角全部切成圓角|
+| leftTopCorner | dimension| 左上角部切成圓角|
+| rightTopCorner | dimension| 右上角切成圓角|
+| leftBottomCorner | dimension| 左下角切成圓角|
+| rightBottomCorner | dimension| 右下角切成圓角|
 
 ### Any optional sections
 
