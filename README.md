@@ -75,4 +75,4 @@ Android 靈活的切圓角元件(Layout)
 
 ## License
 
-確認中
+[Apache License 2.0](../LICENSE)
