@@ -10,12 +10,12 @@ import android.widget.LinearLayout
 
 
 /**
- * clone from https://github.com/leidongld/RoundCornerDemmo
+ * fork from https://github.com/leidongld/RoundCornerDemmo
  *
  * 切圓角元件
  *
- * author: lllddd
- * created on: 2020/6/9 10:55
+ * author: Bryan Yen
+ * created on: 2023/02/13 08:50
  * description:
  */
 class CornersLinearLayout @JvmOverloads constructor(

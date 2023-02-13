@@ -4,28 +4,168 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/cle5e5e5"
     tools:context=".example.FirstFragment">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_200"
-        android:padding="10dp"
+        android:background="@color/clf6f6f6"
         android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.cathaysec.view.agilecorners.CornersLinearLayout
-            android:id="@+id/button_first"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/img_header_bg_more"
+            android:gravity="center"
             android:minWidth="100dp"
             android:minHeight="50dp"
             android:orientation="vertical"
-            app:corner="8dp" />
+            app:corner="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部圓角"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </com.cathaysec.view.agilecorners.CornersLinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/clf6f6f6"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.cathaysec.view.agilecorners.CornersLinearLayout
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_header_bg_more"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            app:leftTopCorner="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左上圓角"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </com.cathaysec.view.agilecorners.CornersLinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/clf6f6f6"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <com.cathaysec.view.agilecorners.CornersLinearLayout
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_header_bg_more"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            app:rightTopCorner="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="右上圓角"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </com.cathaysec.view.agilecorners.CornersLinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/clf6f6f6"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <com.cathaysec.view.agilecorners.CornersLinearLayout
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_header_bg_more"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            app:leftBottomCorner="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左下圓角"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </com.cathaysec.view.agilecorners.CornersLinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/clf6f6f6"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <com.cathaysec.view.agilecorners.CornersLinearLayout
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_header_bg_more"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:orientation="vertical"
+            app:rightBottomCorner="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="右下圓角"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </com.cathaysec.view.agilecorners.CornersLinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
