@@ -1,4 +1,9 @@
 # AgileCornersView
+
+[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
+
 Android 靈活的切圓角元件(Layout)
 
 ## Table of Contents
@@ -12,7 +17,7 @@ Android 靈活的切圓角元件(Layout)
 - [License](#license)
 
 ## Security
-	Android 支援版本 5 ~ 13
+	Android 支援版本 21 ~ 32 (Android 5.0 ~ Android Sv2)
 
 ## Background
 	無，純UI客製元件。
