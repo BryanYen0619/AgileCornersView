@@ -23,8 +23,11 @@ Android 靈活的切圓角元件(Layout)
 	無，純UI客製元件。
 
 ## Install
-製作中
-```
+```groovy
+dependencies {
+	implementation 'io.github.bryanyen0619.agileCornersView-lib:0.1.0'
+}
+
 ```
 
 ## Usage
