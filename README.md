@@ -48,24 +48,24 @@ dependencies {
 
 ## API
 ```xml
-<com.cathaysec.view.agilecorners.CornersLinearLayout
-	android:id="@+id/button1"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:background="@drawable/img_header_bg_more"
-	android:gravity="center"
-	android:minWidth="100dp"
-	android:minHeight="50dp"
-	android:orientation="vertical"
-	app:corner="8dp">
+<com.github.view.agilecorners.CornersLinearLayout
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/img_header_bg_more"
+         android:gravity="center"
+         android:minWidth="100dp"
+         android:minHeight="50dp"
+         android:orientation="vertical"
+         app:corner="8dp">
 
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="全部圓角"
-		android:textColor="@color/white"
-		android:textSize="24sp" />
-</com.cathaysec.view.agilecorners.CornersLinearLayout>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="全部圓角"
+             android:textColor="@color/white"
+             android:textSize="24sp" />
+</com.github.view.agilecorners.CornersLinearLayout>
 ```
 
 ## Contributing
