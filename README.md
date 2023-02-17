@@ -1,6 +1,6 @@
 # AgileCornersView
 
-[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+![GitHub](https://img.shields.io/github/license/BryanYen0619/AgileCornersView)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 
@@ -23,8 +23,11 @@ Android 靈活的切圓角元件(Layout)
 	無，純UI客製元件。
 
 ## Install
-製作中
-```
+```groovy
+dependencies {
+	implementation 'io.github.bryanyen0619.agileCornersView-lib:0.1.0'
+}
+
 ```
 
 ## Usage
