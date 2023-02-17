@@ -1,4 +1,4 @@
-package com.cathaysec.view.agilecorners
+package com.github.view.agilecorners
 
 
 import android.content.Context

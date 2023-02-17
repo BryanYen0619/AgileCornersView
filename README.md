@@ -30,7 +30,7 @@ Android 靈活的切圓角元件(Layout)
 ## Usage
 
 ### Demo截圖
-<img src="https://github.com/BryanYen0619/AgileCornersView/blob/main/app/src/main/java/com/cathaysec/view/agilecorners/screenshot/Screenshot_20230213_092150.png" height="640px" width="288px" >
+<img src="https://github.com/BryanYen0619/AgileCornersView/blob/main/app/src/main/java/com/github/view/agilecorners/screenshot/Screenshot_20230213_092150.png" height="640px" width="288px" >
 
 * 適用於Android項目的UI切圓角元件。
 
@@ -45,7 +45,7 @@ Android 靈活的切圓角元件(Layout)
 
 ## API
 ```xml
-<com.cathaysec.view.agilecorners.CornersLinearLayout
+<com.github.view.agilecorners.CornersLinearLayout
 	android:id="@+id/button1"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
@@ -62,7 +62,7 @@ Android 靈活的切圓角元件(Layout)
 		android:text="全部圓角"
 		android:textColor="@color/white"
 		android:textSize="24sp" />
-</com.cathaysec.view.agilecorners.CornersLinearLayout>
+</com.github.view.agilecorners.CornersLinearLayout>
 ```
 
 ## Contributing
